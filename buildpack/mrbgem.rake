@@ -15,7 +15,7 @@ MRuby::Gem::Specification.new('buildpack') do |spec|
   spec.add_dependency 'mruby-docopt',           github: 'hone/mruby-docopt'
   spec.add_dependency 'mruby-fileutils-simple', github: 'hone/mruby-fileutils-simple'
   spec.add_dependency 'mruby-io',               github: 'hone/mruby-io',              branch: 'popen_status'
-  spec.add_dependency 'mruby-yaml',             github: 'hone/mruby-yaml'
+  spec.add_dependency 'mruby-yaml',             github:  'jit-y/mruby-yaml'
   spec.add_test_dependency 'mruby-stringio', mgem: 'mruby-stringio'
   spec.add_test_dependency 'mruby-mtest',    mgem: 'mruby-mtest'
 end
